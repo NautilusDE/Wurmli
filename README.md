@@ -1,6 +1,7 @@
 # Wurmli
 a snake game for the Colour Maximite 2
 
-tested an FW 5.06
+2021 by nautilus
 
-Ver. 1.0  first release
+tested on firmware 5.06
+ver 1.0
