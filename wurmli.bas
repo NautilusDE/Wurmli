@@ -6,6 +6,7 @@ option explicit
 ' 2021 by nautilus
 '
 ' version: 1.0: first release, tested on firmware 5.06 - have fun :)
+'          1.1: SLOW is now "not to sloooow" ;)
 
 #include "Pal256Lib.inc"
 
@@ -162,8 +163,8 @@ do
         page copy 0,1 'save the menu screen to page 1
         FadeOutPalette
         Game_Mode% = MODE_PLAY
-        if MenuItem% = 1 then Game_Delay% = 180   'slow speed
-        if MenuItem% = 2 then Game_Delay% = 120   'medium speed
+        if MenuItem% = 1 then Game_Delay% = 150   'slow speed
+        if MenuItem% = 2 then Game_Delay% = 115   'medium speed
         if MenuItem% = 3 then Game_Delay% = 80    'fast speed
         SetPlayfield
         SetSnake
